@@ -58,6 +58,23 @@
             font-weight: bold;
             margin-bottom: 10px;
         }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #d4af37;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .links a:hover {
+            background: #c89f32;
+        }
     </style>
 </head>
 <body>
@@ -107,6 +124,10 @@
         </div>
         <button onclick="calculate()">計算</button>
         <div class="output" id="output"></div>
+        <div class="links">
+            <a href="https://weijunshop.com.tw/" target="_blank">前往我的部落格</a>
+            <a href="https://weijunshop.com.tw/youtube" target="_blank">觀看我的 YouTube 頻道</a>
+        </div>
     </div>
     <script>
         const productDetails = {
